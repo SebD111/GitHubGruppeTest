@@ -15,9 +15,9 @@ namespace GitHubGruppeTest
             _count++;
         }
         public string Name { get; }
-        public string ToString()
+        public override string ToString()
         {
-            return $"TestClass {Name}";
+            return $"TestClass: {Name}";
         }
     }
 }

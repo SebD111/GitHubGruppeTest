@@ -1,3 +1,5 @@
-﻿Console.WriteLine("Test");
+﻿using GitHubGruppeTest;
 
-Console.WriteLine("");
+TestClass testClass = new TestClass("Test");
+
+Console.WriteLine(testClass.ToString());
