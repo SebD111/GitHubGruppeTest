@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace GitHubGruppeTest
 {
-    internal class TestClass
+    internal class TestClass : ITestClass
     {
         public TestClass(string name)
         {
             Name = name;
         }
         public string Name { get; }
+        public string ToString()
+        {
+            return $"TestClass {Name}";
+        }
     }
 }
