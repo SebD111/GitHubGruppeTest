@@ -8,9 +8,11 @@ namespace GitHubGruppeTest
 {
     internal class TestClass : ITestClass
     {
+        private int _count;
         public TestClass(string name)
         {
             Name = name;
+            _count++;
         }
         public string Name { get; }
         public string ToString()
