@@ -10,5 +10,11 @@ namespace GitHubGruppeTest
     {
 
         string Name { get; }
+
+        public string ToString()
+        {
+
+            return $"Name: {Name}";
+        }
     }
 }
