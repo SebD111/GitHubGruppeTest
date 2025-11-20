@@ -9,14 +9,14 @@ namespace GitHubGruppeTest
     public class TestBranchClass_Sebastian
     {
 
-        public TestBranchClass_Sebastian(string name) 
+        public TestBranchClass_Sebastian(string name, int age) 
         {
             Name = name;
-        
+            Age = age;
         }
 
-        public string Name 
-        {get; set;}
+        public string Name {get; set;}
+        public int Age{get; set;}
 
         public string ToString()
         {
